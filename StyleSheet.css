@@ -1,0 +1,144 @@
+﻿body {
+    background-color: black;
+}
+
+#form1 {
+    position: absolute; /* or absolute, or fixed */
+    align-self: center;
+    background-image: url("iii.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    px;
+
+}
+
+#Labpx;
+}
+
+#Label1 el1
+}
+
+#Label1 {
+    position: absolute;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    margin: 0 auto;
+    left: 320px;
+    text-shadow: 0 0 10px #0077FF, 0 0 20px #0077FF, 0 0 30px #0077FF, 0 0 40px #0077FF, 0 0 70px #0077FF, 0 0 80px #0077FF, 0 0 100px #0077FF;
+    text-decoration: underline;
+}
+
+    #Label1:hover {
+        color: white;
+        text-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00, 0 0 40px #00ff00, 0 0 70px #00ff00, 0 0 80px #00ff00, 0 0 100px #00ff00;
+    }
+
+#Button1 {
+    position: absolute;
+    top: 118px;
+    left: 420px;
+    width: 200px;
+    height: 50px;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 20px;
+    background-color: black;
+    box-shadow: 0 0 10px darkgreen;
+    cursor: pointer;
+}
+
+    #Button1:hover {
+        color: white;
+        text-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00, 0 0 40px #00ff00, 0 0 70px #00ff00, 0 0 80px #00ff00, 0 0 100px #00ff00;
+    }
+
+
+
+
+
+
+#Button2 {
+    position: absolute;
+    top: 181px;
+    left: 420px;
+    width: 200px;
+    height: 50px;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 20px;
+    background-color: black;
+    box-shadow: 0 0 10px darkgreen;
+    cursor: pointer;
+}
+
+    #Button2:hover {
+        color: white;
+        text-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00, 0 0 40px #00ff00, 0 0 70px #00ff00, 0 0 80px #00ff00, 0 0 100px #00ff00;
+    }
+
+
+
+
+
+#Button3 {
+    position: absolute;
+    top: 243px;
+    left: 420px;
+    width: 200px;
+    height: 50px;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 20px;
+    background-color: black;
+    box-shadow: 0 0 10px darkgreen;
+    cursor: pointer;
+}
+
+    #Button3:hover {
+        color: white;
+        text-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00, 0 0 40px #00ff00, 0 0 70px #00ff00, 0 0 80px #00ff00, 0 0 100px #00ff00;
+    }
+
+#CheckBox1 {
+    display: none;
+}
+
+/* create a sliding bar with round edges */
+.slider {
+    position: absolute;
+    top: 300px;
+    left: 420px;
+    height: 20px;
+    width: 40px;
+    background-color: #ccc;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+    /* create a sliding knob */
+    .slider:before {
+        content: "";
+        position: absolute;
+        top: 2px;
+        left: 2px;
+        height: 16px;
+        width: 16px;
+        background-color: white;
+        border-radius: 50%;
+        transition: 0.2s;
+    }
+
+/* move the sliding knob to the right when the checkbox is checked */
+#CheckBox1:checked + .slider:before {
+    transform: translateX(20px);
+}
+
+/* change the background color of the sliding bar when the checkbox is checked */
+#CheckBox1:checked + .slider {
+    background-color: #2ecc71;
+}
